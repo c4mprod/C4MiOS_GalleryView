@@ -33,7 +33,6 @@
     self = [super initWithFrame:frame];
     if (self)
 	{
-        [self buildView];
 		mTableView = [[UITableView alloc] init];
     }
     return self;
@@ -44,7 +43,6 @@
     self = [super initWithCoder:aDecoder];
     if (self)
 	{
-        [self buildView];
 		mTableView = [[UITableView alloc] init];
     }
     return self;
